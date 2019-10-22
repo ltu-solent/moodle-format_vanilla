@@ -103,10 +103,10 @@ class format_vanilla extends format_base {
             } else {
                 if (!empty($options['navigation'])) {
 					
-// SSU_AMEND START - FORMAT VANILLA 
+// SU_AMEND START - FORMAT VANILLA 
 					//return null;
 					$url->param('section-', $sectionno);
-// SSU_AMEND END
+// SU_AMEND END
 					
                 }
                 $url->set_anchor('section-'.$sectionno);
